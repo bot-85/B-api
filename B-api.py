@@ -34,7 +34,7 @@ uas = 'Mozilla/5.0 (NokiaC5-00)UC AppleWebkit(like Gecko) Safari/530'
 uas = random.choice(["Mozilla/5.0 (NokiaC5-00)UC AppleWebkit(like Gecko) Safari/530"])
 logo="""
   \x1b[0;31m_______________  ___________ __________
-  \x1b[0;31m______  /___   |/  /___  __ )___  ____/  \x1b[0;33m• \x1b[0;32mJEECK
+  \x1b[0;31m______  /___   |/  /___  __ )___  ____/  \x1b[0;33m• \x1b[0;32mBINTANG-XD
   \x1b[0;31m___ _  / __  /|_/ / __  __  |__  /_     \x1b[0;33m• \x1b[0;32mMULTI
   \x1b[0;36m/ /_/ /  _  /  / /  _  /_/ / _  __/    \x1b[0;33m• \x1b[0;32mBRUTE
   \x1b[0;36m\____/   /_/  /_/    /____/  /_/      \x1b[0;33m• \x1b[0;32mFORCE
@@ -42,7 +42,7 @@ logo="""
 """
 logo2="""
   \x1b[0;31m______  __________________   _______  __
-  \x1b[0;31m___   |/  /___  ____/___  | / /__  / / /   \x1b[0;33m•  \x1b[0;32mJEECK
+  \x1b[0;31m___   |/  /___  ____/___  | / /__  / / /   \x1b[0;33m•  \x1b[0;32mBINTANG-XD
   \x1b[0;36m__  /|_/ / __  __/   __   |/ / _  / / /   \x1b[0;33m•  \x1b[0;32mMULTI
   \x1b[0;36m_  /  / /  _  /___   _  /|  /  / /_/ /   \x1b[0;33m•  \x1b[0;32mBRUTE
   \x1b[0;36m/_/  /_/   /_____/   /_/ |_/   \____/   \x1b[0;33m•  \x1b[0;32mFORCE
@@ -225,9 +225,9 @@ def menu():
     print ' \x1b[0;97m[•] Your IP : \x1b[0;97m' + ip
     print ' [•] ────────────────────────────────────────────��┤'
     print ' [•] Pilih Method Crack\n'
-    print ' \x1b[0;97m[1] Crack Dengan b-api (Fast Crack)'
-    print ' \x1b[0;97m[2] Crack Dengan mbasic (Low Crack)'
-    print ' \x1b[0;97m[3] Crack Dengan free (Low Crack)'
+    print ' \x1b[0;97m[01] Crack Dengan b-api (Fast Crack)'
+    print ' \x1b[0;97m[02] Crack Dengan mbasic (Low Crack)'
+    print ' \x1b[0;97m[03] Crack Dengan free (Low Crack)'
     print ' \x1b[0;97m[\x1b[0;91m0\x1b[0;97m] Kembali'
     method = raw_input('\n [?] Choose : ')
     if method == '':
@@ -270,10 +270,10 @@ def menufree():
     print ' \x1b[0;97m[•] Your IP : \x1b[0;97m' + ip
     print ' [•] ────────────────────────────────────────────��┤'
     print ' [•] Method  : free\n'
-    print ' [1] Crack Dari Publik Teman'
-    print ' [2] Crack Dari Total Followers'
-    print ' [3] Crack Dari Like Postingan'
-    print ' [4] Lihat Hasil Crack'
+    print ' [01] Crack Dari Publik Teman'
+    print ' [02] Crack Dari Total Followers'
+    print ' [03] Crack Dari Like Postingan'
+    print ' [04] Lihat Hasil Crack'
     print ' \x1b[0;97m[\x1b[0;91m0\x1b[0;97m] Logout (hapus token)'
     pilih_menufree()
 
@@ -498,10 +498,10 @@ def menumbasic():
     print ' \x1b[0;97m[•] Your IP : \x1b[0;97m' + ip
     print ' [•] ────────────────────────────────────────────��┤'
     print ' [•] Method  : mbasic\n'
-    print ' [1] Crack Dari Publik Teman'
-    print ' [2] Crack Dari Total Followers'
-    print ' [3] Crack Dari Like Postingan'
-    print ' [4] Lihat Hasil Crack'
+    print ' [01] Crack Dari Publik Teman'
+    print ' [02] Crack Dari Total Followers'
+    print ' [03] Crack Dari Like Postingan'
+    print ' [04] Lihat Hasil Crack'
     print ' \x1b[0;97m[\x1b[0;91m0\x1b[0;97m] Logout (hapus token)'
     pilih_menumbasic()
 
@@ -717,10 +717,10 @@ def menubapi():
     print ' \x1b[0;97m[•] Your IP : \x1b[0;97m' + ip
     print ' [•] ────────────────────────────────────────────��┤'
     print ' [•] Method  : b-api\n'
-    print ' [1] Crack Dari Publik Teman'
-    print ' [2] Crack Dari Total Followers'
-    print ' [3] Crack Dari Like Postingan'
-    print ' [4] Lihat Hasil Crack'
+    print ' [01] Crack Dari Publik Teman'
+    print ' [02] Crack Dari Total Followers'
+    print ' [03] Crack Dari Like Postingan'
+    print ' [04] Lihat Hasil Crack'
     print ' \x1b[0;97m[\x1b[0;91m0\x1b[0;97m] Logout (hapus token)'
     pilih_menubapi()
 
